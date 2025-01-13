@@ -1,0 +1,163 @@
+/* Hereâ€™s the CSS file where you can add any additional styling if Tailwind canâ€™t do it. Just add your code in the section marked with comments for each page. */
+
+/* Roboto Fonts */
+@font-face {
+    font-family: Roboto;
+    src: url(/Assets/Fonts/Roboto/static/Roboto-Regular.ttf);
+  }
+  .Roboto {
+    font-family: Roboto;
+  }
+  /* Roboto Fonts */
+  
+  /* open Sans Fonts */
+  @font-face {
+    font-family: OpenSans;
+    src: url(/Assets/Fonts/Open_Sans/static/OpenSans-Regular.ttf);
+  }
+  .OpenSans{
+    font-family: OpenSans;
+  }
+  /* open Sans Fonts */
+  
+  /* Yellow Tail Fonts */
+  @font-face {
+    font-family: YellowTail;
+    src: url(/Assets/Fonts/Yellowtail/Yellowtail-Regular.ttf);
+  }
+  .YellowTail{
+    font-family: YellowTail;
+  }
+  /* Yellow Tail Fonts */
+  
+
+  /* Fonts section over here */
+
+ 
+  /* Homepage */
+  
+  
+
+
+  /* Homepage */
+  
+  
+  /* About */
+  
+  
+
+
+  /* About */
+  
+  
+  /* Shop */
+  
+
+
+  
+  /* Shop */
+  
+  
+  
+  /* ShopSingle */
+  
+  
+
+
+  
+  /* ShopSingle */
+  
+  
+  
+  /* Service */
+  
+
+
+  
+  /* Service */
+  
+  
+  
+  /* Service Single */
+  
+  
+  
+  /* Service Single */
+  
+  
+  
+  /* Portfolio  */
+
+
+
+  
+  /* Portfolio  */
+  
+  /* Portfolio Single */
+
+
+
+  
+  /* Portfolio Single */
+  
+  /* Team */
+  
+
+
+
+  /* Team */
+  
+  /* Blog */
+  
+
+
+
+  /* Blog */
+  
+  /* Blog Single */
+  
+
+
+
+  /* Blog Single */
+  
+  /* Contact */
+  
+
+
+
+  /* Contact */
+  
+  /* 404 */
+  
+
+
+  /* 404 */
+  
+  /* Licenses */
+  
+
+
+
+  /* Licenses */
+  
+  
+  /* Changelog */
+  
+
+
+  /* Changelog */
+  
+  /* Password Protect */
+  
+  
+  
+  
+  /* Password Protect */
+
+
+   /* This section is for compnents */
+  
+
+   
+  /* This section is for compnents */
