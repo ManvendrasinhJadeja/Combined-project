@@ -6,6 +6,13 @@
     <title>HomePage</title>
     <link rel="stylesheet" href="./output.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      .product_card{
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      }
+  </style>
 
     <link
       rel="stylesheet"
@@ -25,7 +32,124 @@
 
     <!-- strat working form here -->
 
-   
+    <div class="w-full h-auto  flex justify-center items-center flex-wrap sm:flex-nowrap my-[15px] md:gap-x-[40px]">
+
+      <div class="w-full sm:w-[40%] h-auto  flex justify-center sm:justify-end items-center"><img  id="card_img" class="w-[250px] sm:h-[90%] object-cover" alt=""></div>
+
+      <div class="w-[265px] sm:w-[60%] h-auto p-[15px] sm:p-[10px] md:p-[20px] space-y-2 flex justify-center items-start flex-col">
+          <div id="product_id"  class="text-[#274C5B] font-bold text-[22px]"></div>
+          <div class="text-[#FFA858] flex justify-start text-[20px]">
+              <div class="ri-star-s-fill"></div>
+              <div class="ri-star-s-fill"></div>
+              <div class="ri-star-s-fill"></div>
+              <div class="ri-star-s-fill"></div>
+              <div class="ri-star-s-fill"></div>
+          </div>
+          <div class="">
+              <span class="text-[#B8B8B8]"><del id="price_1"></del></span><span id="price_2" class="text-[#274C5B] font-semibold"></span>
+          </div>
+          <div class="text-[#525C60] sm:w-[320px] text-justify text-[14px] sm:text-[15px]">
+              Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+          </div>
+          <div class="sm:flex justify-start items-center gap-[15px] space-y-2">
+              <div class="text-[#274C5B] text-[18px] font-semibold">Quantity :</div>
+              <div class="flex justify-start gap-[15px]">
+                  <div class="w-[80px] sm:w-[100px] h-[50px] border-2 border-[#274C5B] rounded-[10px] flex justify-center items-center text-[20px] text-[#274C5B] font-semibold hover:bg-[#274C5B] hover:text-white cursor-pointer">1</div>
+                  <div class="w-[130px] sm:w-[150px] h-[50px] border-2 border-[#274C5B] rounded-[10px] flex justify-center items-center text-[14px] text-white bg-[#274C5B] font-semibold hover:bg-transparent hover:text-[#274C5B] cursor-pointer">Add To Cart <span>&nbsp;<i class="ri-arrow-right-line"></i></span></div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="flex justify-center items-center gap-[20px] sm:gap-[30px] my-[25px]">
+      <div class="bg-[#274C5B] text-white w-[200px] h-[45px] rounded-[10px] flex justify-center items-center border-2 border-transparent hover:text-[#274C5B] hover:bg-transparent hover:border-[#274C5B] font-semibold text-[13px] sm:text-[16px] cursor-pointer">Product Description</div>
+      <div class="text-[#274C5B] font-semibold bg-[#d6e4da]  w-[200px] h-[45px] flex justify-center items-center rounded-[10px] text-[13px] sm:text-[16px] border-2 border-transparent hover:border-[#c8e2cf] hover:text-[#bae0c4] hover:bg-transparent cursor-pointer">Additional Info</div>
+  </div>
+
+  <div class="w-[90%] m-auto text-center text-[#525C60] text-[14px] sm:text-[16px] px-[5px] my-[25px]">
+      <div class="">Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.</div>
+  </div>
+
+  <div class="w-full flex justify-center items-center my-[20px] text-[28px] font-bold text-[#274C5B]">Related Products</div>
+
+  <div class="main_container w-full md:w-[85%] my-[20px] m-auto h-auto flex justify-center items-center flex-wrap gap-[20px]">
+
+      <div class="product_card w-[250px] h-[320px]  flex justify-start items-center flex-col" data-id="product_1" data-heading="Calabrese Broccoli" data-price_1="$20.00" data-price_2="$18.00" data-img_1="./photo/pro1.svg">
+          <div class="uppder_card w-[100%] h-[240px] flex justify-center items-center "><img src="./photo/pro1.svg" class="w-[75%] h-[90%] object-cover" alt=""></div>
+          <div class="lower_card w-[100%] h-[80px] px-[10px] flex justify-start flex-col items-start ">
+              <div class="text-[#274C5B] text-[20px] font-semibold">Calabrese Broccoli</div>
+              <div class="bg-[#B8B8B8] h-[2%] w-[100%] my-[4px]"></div>
+              <div class="w-full flex justify-between">
+                  <div class=""><span class="text-[#274c5ba6] text-[17px]"><del>$20.00</del></span><span class="font-semibold">&nbsp;&nbsp;$13.00</span></div>
+                  <div class="text-[#FFA858] flex justify-center text-[20px]">
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="product_card w-[250px] h-[320px] " data-id="product_2" data-heading="Fresh Banana Fruites" data-price_1="$17.00" data-price_2="$14.00" data-img_1="./photo/pro2.svg">
+          <div class="uppder_card w-[100%] h-[240px] flex justify-center items-center "><img src="./photo/pro2.svg" class="w-[75%] h-[90%] object-cover" alt=""></div>
+          <div class="lower_card w-[100%] h-[80px] px-[10px] flex justify-start flex-col items-start ">
+              <div class="text-[#274C5B] text-[20px] font-semibold">Fresh Banana Fruites</div>
+              <div class="bg-[#B8B8B8] h-[2%] w-[100%] my-[4px]"></div>
+              <div class="w-full flex justify-between">
+                  <div class=""><span class="text-[#274c5ba6] text-[17px]"><del>$17.00</del></span><span class="font-semibold">&nbsp;&nbsp;$14.00</span></div>
+                  <div class="text-[#FFA858] flex justify-center text-[20px]">
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="product_card w-[250px] h-[320px] " data-id="product_3" data-heading="White Nuts" data-price_1="$18.00" data-price_2="$14.00" data-img_1="./photo/pro3.svg">
+          <div class="uppder_card w-[100%] h-[240px] flex justify-center items-center "><img src="./photo/pro3.svg" class="w-[75%] h-[90%] object-cover" alt=""></div>
+          <div class="lower_card w-[100%] h-[80px] px-[10px] flex justify-start flex-col items-start ">
+              <div class="text-[#274C5B] text-[20px] font-semibold">White Nuts</div>
+              <div class="bg-[#B8B8B8] h-[2%] w-[100%] my-[4px]"></div>
+              <div class="w-full flex justify-between">
+                  <div class=""><span class="text-[#274c5ba6] text-[17px]"><del>$18.00</del></span><span class="font-semibold">&nbsp;&nbsp;$14.00</span></div>
+                  <div class="text-[#FFA858] flex justify-center text-[20px]">
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="product_card w-[250px] h-[320px] " data-id="product_4" data-heading="Vegan Red Tomato" data-price_1="$20.00" data-price_2="$17.00" data-img_1="./photo/pro4.svg">
+          <div class="uppder_card w-[100%] h-[240px] flex justify-center items-center "><img src="./photo/pro4.svg" class="w-[75%] h-[90%] object-cover" alt=""></div>
+          <div class="lower_card w-[100%] h-[80px] px-[10px] flex justify-start flex-col items-start ">
+              <div class="text-[#274C5B] text-[20px] font-semibold">Vegan Red Tomato</div>
+              <div class="bg-[#B8B8B8] h-[2%] w-[100%] my-[4px]"></div>
+              <div class="w-full flex justify-between">
+                  <div class=""><span class="text-[#274c5ba6] text-[17px]"><del>$20.00</del></span><span class="font-semibold">&nbsp;&nbsp;$17.00</span></div>
+                  <div class="text-[#FFA858] flex justify-center text-[20px]">
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                      <div class="ri-star-s-fill"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+
 
     <!-- end your work here -->
 
@@ -47,3 +171,29 @@
   </body>
 
 </html>
+<script>
+
+  const product_Detail_next_page=JSON.parse(localStorage.getItem("product_detail_pass"));
+  
+  // Img
+  let card_img=document.getElementById("card_img");
+  card_img.setAttribute("src",product_Detail_next_page.img_path);
+  // Img
+  
+  // product_id 
+  let product_id=document.getElementById("product_id");
+  product_id.innerHTML=product_Detail_next_page.heading;
+  // product_id 
+  
+  // price_1
+  let price_1=document.getElementById("price_1");
+  price_1.innerHTML=product_Detail_next_page.price_1;
+  // price_1
+  
+  // price_2
+  let price_2=document.getElementById("price_2");
+  price_2.innerHTML='&nbsp;&nbsp;'+product_Detail_next_page.price_2;
+  // price_2
+  
+  
+  </script>
