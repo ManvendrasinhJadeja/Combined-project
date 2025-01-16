@@ -2,172 +2,172 @@
 
 /* Roboto Fonts */
 @font-face {
-    font-family: Roboto;
-    src: url(/Assets/Fonts/Roboto/static/Roboto-Regular.ttf);
-  }
-  .Roboto {
-    font-family: Roboto;
-  }
-  /* Roboto Fonts */
-  
-  /* open Sans Fonts */
-  @font-face {
-    font-family: OpenSans;
-    src: url(/Assets/Fonts/Open_Sans/static/OpenSans-Regular.ttf);
-  }
-  .OpenSans{
-    font-family: OpenSans;
-  }
-  /* open Sans Fonts */
-  
-  /* Yellow Tail Fonts */
-  @font-face {
-    font-family: YellowTail;
-    src: url(/Assets/Fonts/Yellowtail/Yellowtail-Regular.ttf);
-  }
-  .YellowTail{
-    font-family: YellowTail;
-  }
-  /* Yellow Tail Fonts */
-  
+  font-family: Roboto;
+  src: url(/Assets/Fonts/Roboto/static/Roboto-Regular.ttf);
+}
+.Roboto {
+  font-family: Roboto;
+}
+/* Roboto Fonts */
 
-  /* Fonts section over here */
+/* open Sans Fonts */
+@font-face {
+  font-family: OpenSans;
+  src: url(/Assets/Fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+.OpenSans{
+  font-family: OpenSans;
+}
+/* open Sans Fonts */
 
- 
-  /* Homepage */
-  
-  
+/* Yellow Tail Fonts */
+@font-face {
+  font-family: YellowTail;
+  src: url(/Assets/Fonts/Yellowtail/Yellowtail-Regular.ttf);
+}
+.YellowTail{
+  font-family: YellowTail;
+}
+/* Yellow Tail Fonts */
 
 
-  /* Homepage */
-  
-  
-  /* About */
-  
-  
+/* Fonts section over here */
 
 
-  /* About */
-  
-  
-  /* Shop */
-  
-
-
-  
-  /* Shop */
-  
-  
-  
-  /* ShopSingle */
-  
-  
-
-
-  
-  /* ShopSingle */
-  
-  
-  
-  /* Service */
-  
-
-
-  
-  /* Service */
-  
-  
-  
-  /* Service Single */
-  
-  
-  
-  /* Service Single */
-  
-  
-  
-  /* Portfolio  */
+/* Homepage */
 
 
 
-  
-  /* Portfolio  */
-  
-  /* Portfolio Single */
+
+/* Homepage */
+
+
+/* About */
 
 
 
-  
-  /* Portfolio Single */
-  
-  /* Team */
-  
+
+/* About */
+
+
+/* Shop */
 
 
 
-  /* Team */
-  
-  /* Blog */
-  
+
+/* Shop */
 
 
 
-  /* Blog */
-  
-  /* Blog Single */
-  
+/* ShopSingle */
 
 
 
-  /* Blog Single */
-  
-  /* Contact */
-  
+
+
+/* ShopSingle */
 
 
 
-  /* Contact */
-  
-  /* 404 */
-  
-
-
-  /* 404 */
-  
-  /* Licenses */
-  
+/* Service */
 
 
 
-  /* Licenses */
-  
-  
-  /* Changelog */
-  
+
+/* Service */
 
 
-  /* Changelog */
-  
-  /* Password Protect */
-  
-  
-  
-  
-  /* Password Protect */
+
+/* Service Single */
 
 
-   /* This section is for compnents */
-  
-  /* Navbar */
-  .ul_2{
-    display: none;
-    /* background-color: white; */
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+/* Service Single */
+
+
+
+/* Portfolio  */
+
+
+
+
+/* Portfolio  */
+
+/* Portfolio Single */
+
+
+
+
+/* Portfolio Single */
+
+/* Team */
+
+
+
+
+/* Team */
+
+/* Blog */
+
+
+
+
+/* Blog */
+
+/* Blog Single */
+
+
+
+
+/* Blog Single */
+
+/* Contact */
+
+
+
+
+/* Contact */
+
+/* 404 */
+
+
+
+/* 404 */
+
+/* Licenses */
+
+
+
+
+/* Licenses */
+
+
+/* Changelog */
+
+
+
+/* Changelog */
+
+/* Password Protect */
+
+
+
+
+/* Password Protect */
+
+
+ /* This section is for compnents */
+
+/* Navbar */
+.ul_2{
+  display: none;
+  /* background-color: white; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .ul_1:hover .ul_2{
-    display: block;
+  display: block;
 }
 /* Navbar */
-   
-  /* This section is for compnents */
+ 
+/* This section is for compnents */

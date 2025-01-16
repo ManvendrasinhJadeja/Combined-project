@@ -1,37 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomePage</title>
-    <link rel="stylesheet" href="./output.css">
-    <link rel="stylesheet" href="style.css">
-    <script type="module" src="script.js"></script>
-    <script type="module" src="jquery-3.7.1.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="style.css" />
 
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- Jquery -->
+  </head>
+  <body>
     <!-- dont remove the nav and footer -->
     <nav id="nav1"></nav>
 
     <!-- strat working form here -->
-    
-    
-    
-    
-    
-    
-    
 
+    <!-- Hero Section -->
 
+    <div
+      class="Home_HeroSection px-[10%] w-[100%] h-[50vh] sm:h-[40vh] md:h-[50vh] lg:h-[80vh] bg-[url(./photo/Home_HeroSection.jpg)] bg-cover bg-no-repeat"
+    >ˍ
+      <div class="Home_HeroText h-full flex flex-col justify-center">
+        <h3 class="text-[#7EB693] YellowTail text-[5vw] lg:text-[3vw]">
+          100% Natural Food
+        </h3>
+        <h2
+          class="text-[9vw] sm:text-[6vw] lg:text-[4vw] text-pretty w-[70vw] sm:w-[50vw] lg:w-[35vw] font-extrabold text-[#274C5B]"
+        >
+          Choose the best healthier way of life
+        </h2>
+        <div
+          class="w-[35vw] sm:w-[40vw] md:w-[20vw] lg:w-[15vw] h-[6vh] sm:h-[5vh] lg:h-[8vh] text-[3vw] md:text-[2vw] lg:text-[1.2vw] flex items-center justify-center font-bold bg-[#EFD372] rounded-lg lg:rounded-2xl text-[#274C5B]"
+        >
+          <button>
+            Explore Now <i class="ri-arrow-right-circle-fill"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section -->
 
+    <!-- Wide Card Section -->
+
+    <div
+      class="Home_WideCards px-[10%] w-[100%] h-[50vh] sm:h-[50vh] md:h-[50vh] lg:h-[65vh] flex items-center justify-center"
+    >
+      <div
+        class="w-full h-[45vh] sm:h-[45vh] md:h-[45vh] lg:h-[35vh] grid grid-cols-1 lg:grid-cols-2 gap-[30px]"
+      >
+        <div
+          class="w-full bg-[url(./photo/Home_WideCard1.jpg)] bg-left md:bg-cover bg-no-repeat rounded-[40px] flex flex-col justify-center px-[10%] md:px-[6%]"
+        >
+          <h3
+            class="YellowTail text-white text-[6.5vw] sm:text-[3.5vw] md:text-[4vw] lg:text-[2.5vw] font-extralight"
+          >
+            Natural!!
+          </h3>
+          <h2
+            class="text-white text-[7vw] sm:text-[4vw] md:text-[3.5vw] lg:text-[2.5vw] text-balance sm:w-[50%] font-semibold"
+          >
+            Get Garden Fresh Fruits
+          </h2>
+        </div>
+        <div
+          class="w-full bg-[url(./photo/Home_WideCard2.jpg)] bg-left md:bg-cover bg-no-repeat rounded-[40px] flex flex-col justify-center px-[10%] md:px-[6%]"
+        >
+          <h3
+            class="YellowTail text-[#7EB693] text-[6.5vw] sm:text-[3.5vw] md:text-[4vw] lg:text-[2.5vw] font-extralight"
+          >
+            Offer!!
+          </h3>
+          <h2
+            class="text-[#274C5B] text-[7vw] sm:text-[4vw] md:text-[3.5vw] lg:text-[2.5vw] text-balance sm:w-[50%] font-semibold"
+          >
+            Get 10% off on Vegetables
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wide Card Section -->
+
+    <!-- About Section -->
+
+    <div
+      class="Home_AboutSection w-full h-[150vh] lg:h-[100vh] 2xl:h-[120vh] bg-[#F9F8F8] flex flex-col lg:flex-row justify-center items-center"
+    >
+      <div class="lg:w-[50%] w-full h-[50%] flex justify-center items-center">
+        <img src="./photo/Home_AboutSection.png" alt="" class="w-full" />
+      </div>
+      <div
+        class="lg:w-[50%] w-full h-[50%] flex flex-col justify-center px-[7%] gap-6 sm:gap-5 lg:gap-9"
+      >
+        <h3
+          class="YellowTail text-[#7EB693] text-[6.5vw] sm:text-[3.5vw] md:text-[4vw] lg:text-[2.5vw] font-extralight"
+        >
+          About Us
+        </h3>
+        <h2
+          class="text-[#274C5B] text-[7vw] sm:text-[4vw] md:text-[3.5vw] lg:text-[2.5vw] text-balance font-semibold"
+        >
+          We Believe in Working Accredited Farmers
+        </h2>
+        <p class="text-[#525C60]">
+          Simply dummy text of the printing and typesetting industry. Lorem had
+          ceased to been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley.
+        </p>
+        <div class="Home_AboutIcon flex flex-col lg:flex-row lg:gap-3">
+          <div
+            class="w-[100px] h-[100px] flex justify-center items-center bg-[#FFFFFF] rounded-2xl"
+          >
+            <img src="./photo/Home_AboutIcon1.svg" alt="" />
+          </div>
+          <div class="">
+            <h3
+              class="text-[#274C5B] font-semibold text-[6vw] md:text-[3vw] lg:text-[1.3vw]"
+            >
+              Organic Foods Only
+            </h3>
+            <p class="text-[#525C60] text-pretty sm:w-[75%] lg:w-[95%]">
+              Simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum
+            </p>
+          </div>
+        </div>
+        <div class="Home_AboutIcon flex flex-col lg:flex-row lg:gap-3">
+          <div
+            class="w-[100px] h-[100px] flex justify-center items-center bg-[#FFFFFF] rounded-2xl"
+          >
+            <img src="./photo/Home_AboutIcon2.png" alt="" />
+          </div>
+          <div class="">
+            <h3
+              class="text-[#274C5B] font-semibold text-[6vw] md:text-[3vw] lg:text-[1.3vw]"
+            >
+              Quality Standards
+            </h3>
+            <p class="text-[#525C60] text-pretty sm:w-[75%] lg:w-[95%]">
+              Simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex h-[6vh] w-[35vw] items-center justify-center rounded-lg bg-[#274C5B] text-[3vw] font-bold text-white sm:h-[5vh] sm:w-[40vw] md:w-[20vw] md:text-[2vw] lg:h-[7vh] lg:w-[10vw] lg:rounded-2xl lg:text-[1vw]"
+        >
+          <button>Shop Now <i class="ri-arrow-right-circle-fill"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <!-- Testimonial -->
+    <div
+      class="Home_TestimonialSection w-full h-[180vh] sm:h-[130vh] lg:h-[120vh] bg-[url(./photo/Home_TestimonialSection.png)] bg-cover bg-center flex flex-col items-center justify-center px-[10%]"
+    >
+      <h3
+        class="YellowTail text-[#7EB693] text-[6.5vw] sm:text-[3.5vw] md:text-[4vw] lg:text-[2.5vw] font-extralight"
+      >
+        Testimonial
+      </h3>
+      <h2
+        class="text-[#274C5B] text-[7vw] sm:text-[4vw] md:text-[3.5vw] lg:text-[2.5vw] text-balance sm:w-[50%] font-semibold text-center"
+      >
+        What Our Customer Saying?
+      </h2>
+      <img src="./photo/Home_TestimonialProfile.jpg" class="rounded-[50%] mt-[40px]" alt="">
+      <img src="./photo/Home_TestimonialStar.svg" class="mt-[20px]" alt="">
+      <p class="text-center text-pretty sm:w-[60vw] lg:w-[30vw] mt-[20px]">Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+      <h2
+      class="text-[#274C5B] text-[6vw] sm:text-[3vw] md:text-[2.5vw] lg:text-[1.5vw] text-balance sm:w-[50%] mt-[20px] font-semibold text-center"
+    >
+      Sara Taylor
+    </h2>
+    <p class="text-[4vw] sm:text-[2vw] md:text-[1.5vw] lg:text-[1vw] font-light">
+      Consumer
+    </p>
+    <img src="./photo/Home_TestimonialSectionNavigation.png" class="mt-[25px]" alt="">
+    <div class="line w-[50vw] h-[1px] bg-[#a4a0a077] mt-[30px]"></div>
+    <div class="grid grid-cols-1 lg:grid-cols-4 items-center justify-center gap-9 mt-[50px]">
+
+      
+      <div class="bg-white border-[4px] border-[#7EB693] rounded-[50%] w-[150px] h-[150px] flex justify-center items-center">
+
+        <div class="bg-[#F1F1F1] rounded-[50%] w-[135px] h-[135px] flex justify-center items-center flex-col">
+          <h2 class="text-[#274C5B] text-[7vw] text-center sm:text-[4vw] md:text-[3.5vw] lg:text-[2vw] xl:text-[1.5vw] font-semibold">100%</h2>
+          <h4 class="text-[1.5vw] xl:text-[0.7vw] text-center lg:text-[1vw]">Organic</h4>
+
+        </div>
+      </div>
+      <div class="bg-white border-[4px] border-[#7EB693] rounded-[50%] w-[150px] h-[150px] flex justify-center items-center">
+
+        <div class="bg-[#F1F1F1] rounded-[50%] w-[135px] h-[135px] flex justify-center items-center flex-col">
+          <h2 class="text-[#274C5B] text-[7vw] text-center sm:text-[4vw] md:text-[3.5vw] lg:text-[2vw] xl:text-[1.5vw] font-semibold">285</h2>
+          <h4 class="text-[1.5vw] xl:text-[0.7vw] text-center lg:text-[1vw]">Active Product</h4>
+        </div>
+      </div>
+      <div class="bg-white border-[4px] border-[#7EB693] rounded-[50%] w-[150px] h-[150px] flex justify-center items-center">
+        
+        <div class="bg-[#F1F1F1] rounded-[50%] w-[135px] h-[135px] flex justify-center items-center flex-col">
+          <h2 class="text-[#274C5B] text-[7vw] text-center sm:text-[4vw] md:text-[3.5vw] lg:text-[2vw] xl:text-[1.5vw] font-semibold">350+</h2>
+          <h4 class="text-[1.5vw] xl:text-[0.7vw] text-center lg:text-[1vw]">Organic Orchards</h4>
+
+        </div>
+      </div>
+      <div class="bg-white border-[4px] border-[#7EB693] rounded-[50%] w-[150px] h-[150px] flex justify-center items-center">
+
+        <div class="bg-[#F1F1F1] rounded-[50%] w-[135px] h-[135px] flex justify-center items-center flex-col">
+          <h2 class="text-[#274C5B] text-[7vw] text-center sm:text-[4vw] md:text-[3.5vw] lg:text-[2vw] xl:text-[1.5vw] font-semibold">25+</h2>
+          <h4 class="text-[1.5vw] xl:text-[0.7vw] text-center lg:text-[1vw]">Years Of Farming</h4>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <!-- Testimonial -->
 
     <!-- end your work here -->
-    <footer id="foot1">
-    </footer>
 
-  
+    <!-- Newsletter -->
 
-</body>
+    <div id="news1"></div>
+
+    <!-- Newsletter -->
+
+    <!-- Footer -->
+    <footer id="foot1"></footer>
+    <!-- Footer -->
+
+
+
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="jquery-3.7.1.min.js"></script>
+  </body>
+
 </html>

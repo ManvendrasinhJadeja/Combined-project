@@ -1,10 +1,11 @@
 
 
-import { CreateNav,CreateFoot } from "./component.js";
+import { CreateNav,CreateFoot,CreateNews } from "./component.js";
 
 document.getElementById("nav1").innerHTML=CreateNav();
 
 
+document.getElementById("news1").innerHTML = CreateNews();
 
 document.getElementById("foot1").innerHTML=CreateFoot();
 

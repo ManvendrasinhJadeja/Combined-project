@@ -64,6 +64,35 @@ function CreateNav(){
 // NavBar Component
 
 
+
+function CreateNews() {
+    return `
+      <div class=" flex h-[50vh] w-[100%] items-center justify-center px-[10%] lg:h-[65vh]">
+        <div class="flex h-[70%] w-full rounded-[35px] bg-[url(./photo/Home_NewsLetterSection.jpg)] bg-cover bg-center sm:h-[64%] md:h-[64%] lg:h-[64%]" >
+          <div class="flex h-full w-full flex-col items-center justify-center px-[10%] xl:flex-row xl:justify-between">
+            <h3 class="text-center text-[7vw] text-white sm:text-[5vw] text-pretty lg:text-[3vw] md:w-[50%] xl:text-left font-semibold">
+              Subscribe our Newsletter
+            </h3>
+            <div class="flex flex-col items-center justify-center gap-3 lg:flex-row ">
+              <input
+                type="email"
+                placeholder="Your Email Address"
+                class="flex h-[6vh] w-[55vw] items-center justify-center rounded-lg text-[3vw] sm:h-[5vh] sm:w-[45vw] md:w-[25vw] md:text-[2vw] lg:h-[8vh] lg:w-[20vw] lg:rounded-2xl lg:text-[1.2vw] px-[5%] sm:px-[6%] lg:px-[3%] outline-none border-none "/>
+              <div
+                class="flex h-[6vh] w-[35vw] items-center justify-center rounded-lg bg-[#274C5B] text-[3vw] font-bold text-white sm:h-[5vh] sm:w-[40vw] md:w-[20vw] md:text-[2vw] lg:h-[8vh] lg:w-[15vw] lg:rounded-2xl lg:text-[1.2vw]"
+              >
+                <button>
+                  Explore Now <i class="ri-arrow-right-circle-fill"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>`;
+  }
+  
+
+
 // Footer Component
 function CreateFoot() {
   return `
@@ -123,4 +152,4 @@ function CreateFoot() {
 
 
 
-export{CreateNav,CreateFoot};
+export{CreateNav,CreateFoot,CreateNews};
