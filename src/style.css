@@ -158,6 +158,16 @@
 
    /* This section is for compnents */
   
+  /* Navbar */
+  .ul_2{
+    display: none;
+    /* background-color: white; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 
+.ul_1:hover .ul_2{
+    display: block;
+}
+/* Navbar */
    
   /* This section is for compnents */
