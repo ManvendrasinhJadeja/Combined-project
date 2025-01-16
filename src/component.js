@@ -1,13 +1,12 @@
-
 // NavBar Component
-function CreateNav(){
+function CreateNav() {
   return `
   <div class="nav_bar w-[100%] h-[80px]  flex justify-between items-center px-[10px] md:px-[15px]">
    <div class="nav_right w-[150px] md:w-[170px] h-[100%] flex justify-center items-center">
        <img src="./photo/nav_logo.svg" class="w-[90%] h-[90%]" alt="">
    </div>
    <div class="nav_center hidden sm:flex justify-center items-center space-x-7 text-[17px] font-semibold text-[#274C5B]">
-       <div class="cursor-pointer text-[#274C5B]"><a href="">Home</a></div>
+       <div class="cursor-pointer text-[#274C5B]"><a href="/Src/Index.html">Home</a></div>
        <div class="cursor-pointer">About</div>
 
        <div class="">
@@ -16,11 +15,11 @@ function CreateNav(){
                <li>
                    Pages
                    <ul class="ul_2 space-y-3 w-[180px] hover:block cursor-pointer text-[#274C5B] text-[17px]"  style="position: absolute;">
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="">Services</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="">Services Single</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="">Portfolio</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="">Our Team</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="">Blog</a></li>
+                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="/Combined-project/Src/service.html">Services</a></li>
+                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="/Combined-project/Src/serviceSingle.html">Services Single</a></li>
+                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="/Combined-project/Src/portfolio.html">Portfolio</a></li>
+                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="/Combined-project/Src/team.html">Our Team</a></li>
+                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="/Combined-project/Src/blog.html">Blog</a></li>
                    </ul>
 
                </li>
@@ -49,24 +48,22 @@ function CreateNav(){
    <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]">About</div>
    <div class="nav_sub_1 w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer"  style="border-bottom: 1px solid #274C5B;">Pages&nbsp;<i class="ri-arrow-down-s-line pt-[20px] text-[16px]"></i></div>
    <div class="nav_sub_2 space-y-3 pl-[40px] w-full">
-       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="">Services</a></div>
-       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="">Services Single</a></div>
-       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="">Portfolio</a></div>
-       <div class=" rounded-tl-[30px] rounded-bl-[30px]  w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="">Our Team</a></div>
-       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="">Blog</a></div>
+       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="/Combined-project/Src/service.html">Services</a></div>
+       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="/Combined-project/Src/serviceSingle.html">Services Single</a></div>
+       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="/Combined-project/Src/portfolio.html">Portfolio</a></div>
+       <div class=" rounded-tl-[30px] rounded-bl-[30px]  w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="/Combined-project/Src/team.html">Our Team</a></div>
+       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="/Combined-project/Src/blog.html">Blog</a></div>
    </div>
    <div class="shop_1 w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]" style="border-top: 1px solid #274C5B;">Shop</div>
    <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]">Project</div>
    <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]">News</div>
 </div>
 `;
-};
+}
 // NavBar Component
 
-
-
 function CreateNews() {
-    return `
+  return `
       <div class=" flex h-[50vh] w-[100%] items-center justify-center px-[10%] lg:h-[65vh]">
         <div class="flex h-[70%] w-full rounded-[35px] bg-[url(./photo/Home_NewsLetterSection.jpg)] bg-cover bg-center sm:h-[64%] md:h-[64%] lg:h-[64%]" >
           <div class="flex h-full w-full flex-col items-center justify-center px-[10%] xl:flex-row xl:justify-between">
@@ -89,9 +86,7 @@ function CreateNews() {
           </div>
         </div>
       </div>`;
-  }
-  
-
+}
 
 // Footer Component
 function CreateFoot() {
@@ -146,10 +141,8 @@ function CreateFoot() {
              <div class="cursor-pointer">Changelog</div>
              </div>
              </div>
-             `
+             `;
 }
 // Footer Component
 
-
-
-export{CreateNav,CreateFoot,CreateNews};
+export { CreateNav, CreateFoot, CreateNews };
