@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HomePage</title>
+    <title>BlogPage</title>
     <link rel="stylesheet" href="./output.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link
       rel="stylesheet"
@@ -25,7 +26,160 @@
 
     <!-- strat working form here -->
 
-   
+    <div class="blogTtl w-full h-auto">
+      <div class="banner w-full min-h-[200px] lg:h-[350px] bg-[url('../src/photo/blog_banner.png')] bg-no-repeat bg-cover bg-center"></div>
+    </div>
+
+    <div class="blogCont w-full h-auto lg:h-[1300px] flex items-center justify-center">
+      <div class="subBlogCont w-full lg:w-[1000px] h-auto flex flex-col justify-between gap-8">
+          <div class="card w-full lg:w-[1000px] h-auto lg:h-[400px] flex flex-wrap lg:flex-nowrap justify-between gap-[70px] lg:gap-0 mt-12">
+            <div class="card-1 w-full lg:w-[48%] h-auto lg:h-[400px] flex flex-col items-center relative">
+              <div class="cardImg relative w-full h-[250px] sm:w-[450px] sm:h-[350px] bg-[url('../src/photo/blog_1.png')] bg-no-repeat bg-cover bg-center cursor-pointer">
+                <div class="date w-[40px] sm:w-[45px] h-[40px] sm:h-[45px] rounded-full mt-[15px] sm:mt-[25px] ms-[15px] sm:ms-[25px] bg-[#fff] flex items-center justify-center">
+                  <p class="text-[10px] sm:text-[12px] leading-[12px] sm:leading-[13px] text-center font-semibold">25 <br> Nov</p>
+                </div>
+              </div>
+              <div class="cardCont absolute bottom-0 w-[90%] sm:w-[400px] h-auto lg:h-[195px] bg-[#fff] rounded-[15px] sm:rounded-[20px] shadow-md mb-4 p-4 flex items-center justify-center">
+                <div class="subCardCont w-[90%] sm:w-[350px] h-auto sm:h-[140px] flex flex-col justify-between">
+                  <div class="cardDetail w-auto sm:w-[125px] h-[21px] flex items-center">
+                    <i class="ri-user-fill text-[#7EB693] text-[12px] sm:text-[13px]"></i>
+                    <p class="text-[10px] sm:text-[11px] text-[#274C5B] ps-[3px]">By Rachi Card</p>
+                  </div>
+                  <div class="cardDetail w-full sm:w-[330px] h-auto">
+                    <p class="text-[15px] sm:text-[17px] font-semibold text-[#274C5B]">The Benefits of Vitamin D & How to Get It</p>
+                    <p class="text-[12px] sm:text-[14px] text-[#525C60] pt-[3px]">Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                  </div>
+                  <div class="readMore w-auto sm:w-[120px] h-[23px] flex items-center cursor-pointer">
+                    <a href="blogsingle1.html" class="text-[#274C5B] font-semibold text-[12px] sm:text-[14px] pr-[5px]">Read More</a>
+                    <i class="ri-arrow-right-circle-line text-[#335B6B] text-[16px] sm:text-[20px]"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-2 w-full lg:w-[48%] h-auto lg:h-[400px] flex flex-col items-center relative">
+              <div class="cardImg relative w-full h-[250px] sm:w-[450px] sm:h-[350px] bg-[url('../src/photo/blog_2.png')] bg-no-repeat bg-cover bg-center cursor-pointer">
+                <div class="date w-[40px] sm:w-[45px] h-[40px] sm:h-[45px] rounded-full mt-[15px] sm:mt-[25px] ms-[15px] sm:ms-[25px] bg-[#fff] flex items-center justify-center">
+                  <p class="text-[10px] sm:text-[12px] leading-[12px] sm:leading-[13px] text-center font-semibold">25 <br> Nov</p>
+                </div>
+              </div>
+              <div class="cardCont absolute bottom-0 w-[90%] sm:w-[400px] h-auto lg:h-[195px] bg-[#fff] rounded-[15px] sm:rounded-[20px] shadow-md mb-4 p-4 flex items-center justify-center">
+                <div class="subCardCont w-[90%] sm:w-[350px] h-auto sm:h-[140px] flex flex-col justify-between">
+                  <div class="cardDetail w-auto sm:w-[125px] h-[21px] flex items-center">
+                    <i class="ri-user-fill text-[#7EB693] text-[12px] sm:text-[13px]"></i>
+                    <p class="text-[10px] sm:text-[11px] text-[#274C5B] ps-[3px]">By Rachi Card</p>
+                  </div>
+                  <div class="cardDetail w-full sm:w-[330px] h-auto">
+                    <p class="text-[15px] sm:text-[17px] font-semibold text-[#274C5B]">Our Favorite Summertime Tomato</p>
+                    <p class="text-[12px] sm:text-[14px] text-[#525C60] pt-[3px]">Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                  </div>
+                  <div class="readMore w-auto sm:w-[120px] h-[23px] flex items-center cursor-pointer">
+                    <a href="blogsingle2.html" class="text-[#274C5B] font-semibold text-[12px] sm:text-[14px] pr-[5px]">Read More</a>
+                    <i class="ri-arrow-right-circle-line text-[#335B6B] text-[16px] sm:text-[20px]"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card w-full lg:w-[1000px] h-auto lg:h-[400px] flex flex-wrap lg:flex-nowrap justify-between gap-[70px] lg:gap-0 mt-[70px] lg:mt-0">
+            <div class="card-3 w-full lg:w-[48%] h-auto lg:h-[400px] flex flex-col items-center relative">
+              <div class="cardImg relative w-full h-[250px] sm:w-[450px] sm:h-[350px] bg-[url('../src/photo/blog_3.png')] bg-no-repeat bg-cover bg-center cursor-pointer">
+                <div class="date w-[40px] sm:w-[45px] h-[40px] sm:h-[45px] rounded-full mt-[15px] sm:mt-[25px] ms-[15px] sm:ms-[25px] bg-[#fff] flex items-center justify-center">
+                  <p class="text-[10px] sm:text-[12px] leading-[12px] sm:leading-[13px] text-center font-semibold">25 <br> Nov</p>
+                </div>
+              </div>
+              <div class="cardCont absolute bottom-0 w-[90%] sm:w-[400px] h-auto lg:h-[195px] bg-[#fff] rounded-[15px] sm:rounded-[20px] shadow-md mb-4 p-4 flex items-center justify-center">
+                <div class="subCardCont w-[90%] sm:w-[350px] h-auto sm:h-[140px] flex flex-col justify-between">
+                  <div class="cardDetail w-auto sm:w-[125px] h-[21px] flex items-center">
+                    <i class="ri-user-fill text-[#7EB693] text-[12px] sm:text-[13px]"></i>
+                    <p class="text-[10px] sm:text-[11px] text-[#274C5B] ps-[3px]">By Rachi Card</p>
+                  </div>
+                  <div class="cardDetail w-full sm:w-[330px] h-auto">
+                    <p class="text-[15px] sm:text-[17px] font-semibold text-[#274C5B]">Benefits of Vitamin C & How to Get It</p>
+                    <p class="text-[12px] sm:text-[14px] text-[#525C60] pt-[3px]">Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                  </div>
+                  <div class="readMore w-auto sm:w-[120px] h-[23px] flex items-center cursor-pointer">
+                    <a href="blogsingle3.html" class="text-[#274C5B] font-semibold text-[12px] sm:text-[14px] pr-[5px]">Read More</a>
+                    <i class="ri-arrow-right-circle-line text-[#335B6B] text-[16px] sm:text-[20px]"></i>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <div class="card-4 w-full lg:w-[48%] h-auto lg:h-[400px] flex flex-col items-center relative">
+              <div class="cardImg relative w-full h-[250px] sm:w-[450px] sm:h-[350px] bg-[url('../src/photo/blog_4.png')] bg-no-repeat bg-cover bg-center cursor-pointer">
+                <div class="date w-[40px] sm:w-[45px] h-[40px] sm:h-[45px] rounded-full mt-[15px] sm:mt-[25px] ms-[15px] sm:ms-[25px] bg-[#fff] flex items-center justify-center">
+                  <p class="text-[10px] sm:text-[12px] leading-[12px] sm:leading-[13px] text-center font-semibold">25 <br> Nov</p>
+                </div>
+              </div>
+              <div class="cardCont absolute bottom-0 w-[90%] sm:w-[400px] h-auto lg:h-[195px] bg-[#fff] rounded-[15px] sm:rounded-[20px] shadow-md mb-4 p-4 flex items-center justify-center">
+                <div class="subCardCont w-[90%] sm:w-[350px] h-auto sm:h-[140px] flex flex-col justify-between">
+                  <div class="cardDetail w-auto sm:w-[125px] h-[21px] flex items-center">
+                    <i class="ri-user-fill text-[#7EB693] text-[12px] sm:text-[13px]"></i>
+                    <p class="text-[10px] sm:text-[11px] text-[#274C5B] ps-[3px]">By Rachi Card</p>
+                  </div>
+                  <div class="cardDetail w-full sm:w-[330px] h-auto">
+                    <p class="text-[15px] sm:text-[17px] font-semibold text-[#274C5B]">Research More Organic Foods</p>
+                    <p class="text-[12px] sm:text-[14px] text-[#525C60] pt-[3px]">Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                  </div>
+                  <div class="readMore w-auto sm:w-[120px] h-[23px] flex items-center cursor-pointer">
+                    <a href="blogsingle2.html" class="text-[#274C5B] font-semibold text-[12px] sm:text-[14px] pr-[5px]">Read More</a>
+                    <i class="ri-arrow-right-circle-line text-[#335B6B] text-[16px] sm:text-[20px]"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-full lg:w-[1000px] h-auto lg:h-[400px] flex flex-wrap lg:flex-nowrap justify-between gap-[70px] lg:gap-0 mt-[70px] lg:mt-0 mb-5">
+            <div class="card-5 w-full lg:w-[48%] h-auto lg:h-[400px] flex flex-col items-center relative">
+              <div class="cardImg relative w-full h-[250px] sm:w-[450px] sm:h-[350px] bg-[url('../src/photo/blog_5.png')] bg-no-repeat bg-cover bg-center cursor-pointer">
+                <div class="date w-[40px] sm:w-[45px] h-[40px] sm:h-[45px] rounded-full mt-[15px] sm:mt-[25px] ms-[15px] sm:ms-[25px] bg-[#fff] flex items-center justify-center">
+                  <p class="text-[10px] sm:text-[12px] leading-[12px] sm:leading-[13px] text-center font-semibold">25 <br> Nov</p>
+                </div>
+              </div>
+              <div class="cardCont absolute bottom-0 w-[90%] sm:w-[400px] h-auto lg:h-[195px] bg-[#fff] rounded-[15px] sm:rounded-[20px] shadow-md mb-4 p-4 flex items-center justify-center">
+                <div class="subCardCont w-[90%] sm:w-[350px] h-auto sm:h-[140px] flex flex-col justify-between">
+                  <div class="cardDetail w-auto sm:w-[125px] h-[21px] flex items-center">
+                    <i class="ri-user-fill text-[#7EB693] text-[12px] sm:text-[13px]"></i>
+                    <p class="text-[10px] sm:text-[11px] text-[#274C5B] ps-[3px]">By Rachi Card</p>
+                  </div>
+                  <div class="cardDetail w-full sm:w-[330px] h-auto">
+                    <p class="text-[15px] sm:text-[17px] font-semibold text-[#274C5B]">Everyday Fresh Fruites</p>
+                    <p class="text-[12px] sm:text-[14px] text-[#525C60] pt-[3px]">Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                  </div>
+                  <div class="readMore w-auto sm:w-[120px] h-[23px] flex items-center cursor-pointer">
+                    <a href="blogsingle2.html" class="text-[#274C5B] font-semibold text-[12px] sm:text-[14px] pr-[5px]">Read More</a>
+                    <i class="ri-arrow-right-circle-line text-[#335B6B] text-[16px] sm:text-[20px]"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-6 w-full lg:w-[48%] h-auto lg:h-[400px] flex flex-col items-center relative">
+              <div class="cardImg relative w-full h-[250px] sm:w-[450px] sm:h-[350px] bg-[url('../src/photo/blog_6.png')] bg-no-repeat bg-cover bg-center cursor-pointer">
+                <div class="date w-[40px] sm:w-[45px] h-[40px] sm:h-[45px] rounded-full mt-[15px] sm:mt-[25px] ms-[15px] sm:ms-[25px] bg-[#fff] flex items-center justify-center">
+                  <p class="text-[10px] sm:text-[12px] leading-[12px] sm:leading-[13px] text-center font-semibold">25 <br> Nov</p>
+                </div>
+              </div>
+              <div class="cardCont absolute bottom-0 w-[90%] sm:w-[400px] h-auto lg:h-[195px] bg-[#fff] rounded-[15px] sm:rounded-[20px] shadow-md mb-4 p-4 flex items-center justify-center">
+                <div class="subCardCont w-[90%] sm:w-[350px] h-auto sm:h-[140px] flex flex-col justify-between">
+                  <div class="cardDetail w-auto sm:w-[125px] h-[21px] flex items-center">
+                    <i class="ri-user-fill text-[#7EB693] text-[12px] sm:text-[13px]"></i>
+                    <p class="text-[10px] sm:text-[11px] text-[#274C5B] ps-[3px]">By Rachi Card</p>
+                  </div>
+                  <div class="cardDetail w-full sm:w-[330px] h-auto">
+                    <p class="text-[15px] sm:text-[17px] font-semibold text-[#274C5B]">Don’t Use Plastic Product! it’s Kill Nature</p>
+                    <p class="text-[12px] sm:text-[14px] text-[#525C60] pt-[3px]">Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                  </div>
+                  <div class="readMore w-auto sm:w-[120px] h-[23px] flex items-center cursor-pointer">
+                    <a href="blogsingle2.html" class="text-[#274C5B] font-semibold text-[12px] sm:text-[14px] pr-[5px]">Read More</a>
+                    <i class="ri-arrow-right-circle-line text-[#335B6B] text-[16px] sm:text-[20px]"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
 
     <!-- end your work here -->
 
