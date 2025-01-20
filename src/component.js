@@ -9,17 +9,17 @@ function CreateNav() {
        <div class="cursor-pointer text-[#274C5B]"><a href="./Index.html">Home</a></div>
        <div class="cursor-pointer"><a href="./about.html">About</a></div>
 
-       <div class="">
+       <div class="z-10">
 
            <ul class="ul_1 cursor-pointer" style="position: relative;">
                <li>
                    Pages
-                   <ul class="ul_2 space-y-3 w-[180px] hover:block cursor-pointer text-[#274C5B] text-[17px]"  style="position: absolute;">
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="./service.html">Services</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="./serviceSingle.html">Services Single</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="./portfolio.html">Portfolio</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="./team.html">Our Team</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="./blog.html">Blog</a></li>
+                   <ul class="ul_2 space-y-3 w-[180px] hover:block cursor-pointer z-100 text-[#274C5B] text-[17px] bg-white"  style="position: absolute;">
+                       <li class=" hover:text-white z-100 hover:bg-[#274C5B] p-[10px_20px]"><a href="./service.html">Services</a></li>
+                       <li class=" hover:text-white z-100 hover:bg-[#274C5B] p-[10px_20px]"><a href="./serviceSingle.html">Services Single</a></li>
+                       <li class=" hover:text-white z-100 hover:bg-[#274C5B] p-[10px_20px]"><a href="./portfolio.html">Portfolio</a></li>
+                       <li class=" hover:text-white z-100 hover:bg-[#274C5B] p-[10px_20px]"><a href="./team.html">Our Team</a></li>
+                       <li class=" hover:text-white z-100 hover:bg-[#274C5B] p-[10px_20px]"><a href="./blog.html">Blog</a></li>
                    </ul>
 
                </li>

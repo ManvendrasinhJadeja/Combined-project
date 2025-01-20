@@ -3,7 +3,7 @@
 /* Roboto Fonts */
 @font-face {
   font-family: Roboto;
-  src: url(/Assets/Fonts/Roboto/static/Roboto-Regular.ttf);
+  src: url(../Assets/Fonts/Roboto/static/Roboto-Regular.ttf);
 }
 .Roboto {
   font-family: Roboto;
@@ -13,7 +13,7 @@
 /* open Sans Fonts */
 @font-face {
   font-family: OpenSans;
-  src: url(/Assets/Fonts/Open_Sans/static/OpenSans-Regular.ttf);
+  src: url(../Assets/Fonts/Open_Sans/static/OpenSans-Regular.ttf);
 }
 .OpenSans{
   font-family: OpenSans;
@@ -23,7 +23,7 @@
 /* Yellow Tail Fonts */
 @font-face {
   font-family: YellowTail;
-  src: url(/Assets/Fonts/Yellowtail/Yellowtail-Regular.ttf);
+  src: url(../Assets/Fonts/Yellowtail/Yellowtail-Regular.ttf);
 }
 .YellowTail{
   font-family: YellowTail;
