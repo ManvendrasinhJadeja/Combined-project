@@ -6,8 +6,8 @@ function CreateNav() {
        <img src="./photo/nav_logo.svg" class="w-[90%] h-[90%]" alt="">
    </div>
    <div class="nav_center hidden sm:flex justify-center items-center space-x-7 text-[17px] font-semibold text-[#274C5B]">
-       <div class="cursor-pointer text-[#274C5B]"><a href="/Combined-project/Src/Index.html">Home</a></div>
-       <div class="cursor-pointer"><a href="/Combined-project/Src/about.html">About</a></div>
+       <div class="cursor-pointer text-[#274C5B]"><a href="./Index.html">Home</a></div>
+       <div class="cursor-pointer"><a href="./about.html">About</a></div>
 
        <div class="">
 
@@ -15,18 +15,18 @@ function CreateNav() {
                <li>
                    Pages
                    <ul class="ul_2 space-y-3 w-[180px] hover:block cursor-pointer text-[#274C5B] text-[17px]"  style="position: absolute;">
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="/Combined-project/Src/service.html">Services</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="/Combined-project/Src/serviceSingle.html">Services Single</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="/Combined-project/Src/portfolio.html">Portfolio</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="/Combined-project/Src/team.html">Our Team</a></li>
-                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="/Combined-project/Src/blog.html">Blog</a></li>
+                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="./service.html">Services</a></li>
+                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="./serviceSingle.html">Services Single</a></li>
+                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="./portfolio.html">Portfolio</a></li>
+                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="./team.html">Our Team</a></li>
+                       <li class=" hover:text-white hover:bg-[#274C5B] p-[10px_20px]"><a href="./blog.html">Blog</a></li>
                    </ul>
 
                </li>
            </ul>
        </div>
-       <div class=""><a href="/Combined-project/Src/shop.html">Shop</a></div>
-       <div class=""><a href="/Combined-project/Src/portfolio.html">Project</a></div>
+       <div class=""><a href="./shop.html">Shop</a></div>
+       <div class=""><a href="./portfolio.html">Project</a></div>
        <div class="">News</div>
    </div>
    
@@ -44,19 +44,19 @@ function CreateNav() {
 </div>
 
 <div class="nav_menu_bar w-full h-auto flex flex-col justify-center items-start text-[#274C5B]">
-   <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]"><a href="/Combined-project/Src/Index.html">Home</a></div>
-   <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]"><a href="/Combined-project/Src/about.html">About</a></div>
+   <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]"><a href="./Index.html">Home</a></div>
+   <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]"><a href="./about.html">About</a></div>
    <div class="nav_sub_1 w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer"  style="border-bottom: 1px solid #274C5B;">Pages&nbsp;<i class="ri-arrow-down-s-line pt-[20px] text-[16px]"></i></div>
    <div class="nav_sub_2 space-y-3 pl-[40px] w-full">
-       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="/Combined-project/Src/service.html">Services</a></div>
-       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="/Combined-project/Src/serviceSingle.html">Services Single</a></div>
-       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="/Combined-project/Src/portfolio.html">Portfolio</a></div>
-       <div class=" rounded-tl-[30px] rounded-bl-[30px]  w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="/Combined-project/Src/team.html">Our Team</a></div>
-       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="/Combined-project/Src/blog.html">Blog</a></div>
+       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="./service.html">Services</a></div>
+       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="./serviceSingle.html">Services Single</a></div>
+       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="./portfolio.html">Portfolio</a></div>
+       <div class=" rounded-tl-[30px] rounded-bl-[30px]  w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="./team.html">Our Team</a></div>
+       <div class="rounded-tl-[30px] rounded-bl-[30px] w-full h-auto p-[10px] pl-[20px] hover:text-white hover:bg-[#274C5B] cursor-pointer transition-[1.2s] hover:transition-[1.2s]"><a href="./blog.html">Blog</a></div>
    </div>
-   <div class="shop_1 w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]" style="border-top: 1px solid #274C5B;"><a href="/Combined-project/Src/shop.html">Shop</a></div>
-   <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]"><a href="/Combined-project/Src/portfolio.html">Project</a></div>
-   <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]"><a href="/Combined-project/Src/blog.html">News</a></div>
+   <div class="shop_1 w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]" style="border-top: 1px solid #274C5B;"><a href="./shop.html">Shop</a></div>
+   <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]"><a href="./portfolio.html">Project</a></div>
+   <div class="w-[100%] h-auto pl-[20px] p-[10px] hover:text-white hover:bg-[#274C5B] cursor-pointer border-b-2 border-b-[#274C5B]"><a href="./blog.html">News</a></div>
 </div>
 `;
 }
