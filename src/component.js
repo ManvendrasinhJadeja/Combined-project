@@ -6,7 +6,7 @@ function CreateNav() {
        <img src="./photo/nav_logo.svg" class="w-[90%] h-[90%]" alt="">
    </div>
    <div class="nav_center hidden sm:flex justify-center items-center space-x-7 text-[17px] font-semibold text-[#274C5B]">
-       <div class="cursor-pointer text-[#274C5B]"><a href="./Index.html">Home</a></div>
+       <div class="cursor-pointer text-[#274C5B]"><a href="./index.html">Home</a></div>
        <div class="cursor-pointer"><a href="./about.html">About</a></div>
 
        <div class="z-10">
