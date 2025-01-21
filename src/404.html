@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HomePage</title>
+    <title>404Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./output.css" />
     <link rel="stylesheet" href="style.css" />
 
@@ -24,8 +25,33 @@
     <nav id="nav1"></nav>
 
     <!-- strat working form here -->
+    
+    <!-- Hero Section -->
+    <div 
+    class="relative h-screen w-full bg-cover bg-center flex items-center" 
+    style="background-image: url('./photo/404.png');">
 
-   
+    <!-- Text Content -->
+    <div class="textleft w-[50%]"></div>
+    <div class="textright w-[50%] flex items-center justify-start">
+      <div class="container mx-auto px-4 lg:px-[22px] flex justify-end">
+        <div class="text-start px-6">
+          <h1 class="text-[200px] font-bold text-[#8FA8A8] leading-none">404</h1>
+          <p class="text-5xl font-semibold text-[#274C5B] mt-6">Page not found</p>
+          <p class="text-sm text-[#525C60] mt-4">
+            The page you are looking for doesn't exist or has been moved.
+          </p>
+          <div class="mt-8">
+            <a href="index.html" class="bg-[#274C5B] text-white px-8 py-3 rounded-md text-lg transition">
+              Go to Homepage <i class="ri-arrow-right-line bg-[#335B6B] rounded-[50%] text-[15px]"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
 
     <!-- end your work here -->
 
