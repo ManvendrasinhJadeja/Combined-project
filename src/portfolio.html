@@ -6,7 +6,7 @@
     <title>HomePage</title>
     <link rel="stylesheet" href="./output.css" />
     <link rel="stylesheet" href="style.css" />
-
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
@@ -19,13 +19,95 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <!-- Jquery -->
   </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+
+    .roboto-uniquifier 
+    {
+        font-family: "Roboto", serif;
+    }
+    .yellowtail-regular
+    {
+        font-family: "Yellowtail", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .cont h2
+    {
+        font-family: "Roboto", serif;
+    }
+    .cont p{
+        font-family: "Yellowtail", serif;
+    }
+    </style>
   <body>
     <!-- dont remove the nav and footer -->
     <nav id="nav1"></nav>
 
     <!-- strat working form here -->
 
-   
+    <div class="heroSection">
+      <img src="../src/photo/Banner.png" class="img-fluid">
+  </div>
+  <div class="portfolio mt-[100px] flex flex-wrap justify-center gap-5">
+      <div class="pr1 w-[350px] h-[430px] d-flex">
+       <a href="portfoliosingle1.html">
+          <img src="../src/photo/Image.png">
+        </a>
+              <div class="cont pt-[10px]">
+                  <h2 class="text-[#274C5B] font-bold">Green and tasty Lemon</h2>
+                  <p class="text-[#7EB693]">Fruits</p>
+              </div>
+      </div>
+      <div class="pr1 w-[350px] h-[430px] ">
+        <a href="portfoliosingle2.html">
+          <img src="../src/photo/Image (1).png" >
+        </a>
+          <div class="cont pt-[10px]">
+              <h2 class="text-[#274C5B] font-bold">Organic Carrot</h2>
+              <p class="text-[#7EB693]">Farmer</p>
+          </div>
+      </div>
+      <div class="pr1 w-[350px] h-[430px]">
+        <a href="portfoliosingle3.html">
+          <img src="../src/photo/Image (2).png">
+        </a>
+          <div class="cont pt-[10px]">
+              <h2 class="text-[#274C5B] font-bold">Organic Betel Leaf</h2>
+              <p class="text-[#7EB693]">Leaf</p>
+          </div>
+      </div>
+      <div class="pr1 w-[350px] h-[430px] ">
+        <a href="portfoliosingle4.html">
+          <img src="../src/photo/Image (3).png">
+        </a>
+          <div class="cont pt-[10px]">
+              <h2 class="text-[#274C5B] font-bold">Natural Tomata</h2>
+              <p class="text-[#7EB693]">Fruits</p>
+          </div>
+      </div>
+      <div class="pr1 w-[350px] h-[430px] ">
+        <a href="portfoliosingle5.html">
+          <img src="../src/photo/Photo.png" class="rounded-2xl">
+        </a>
+          <div class="cont pt-[10px]">
+              <h2 class="text-[#274C5B] font-bold">Black Rasberry</h2>
+              <p class="text-[#7EB693]">Farmer</p>
+          </div>
+      </div>
+      <div class="pr1 w-[350px] h-[430px] ">
+        <a href="portfoliosingle6.html">
+          <img src="../src/photo/Image (4).png">
+        </a>
+          <div class="cont pt-[10px]">
+              <h2 class="text-[#274C5B] font-bold">Honey Orange</h2>
+              <p class="text-[#7EB693]">Farmer</p>
+          </div>
+      </div>
+  </div>
 
     <!-- end your work here -->
 
